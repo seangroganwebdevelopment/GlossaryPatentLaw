@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-hamburger" onclick="toggleNav()">☰</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="english-german.html">English - German</a></li>
+                <li><a href="english-french.html">English - French</a></li>
+                <li><a href="english-russian.html">English - Russian</a></li>
+                <!-- Add other language combinations here -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="glossary">
+            <h1>Glossary: English - German</h1>
+            <div class="letter-section">
+                <h2 onclick="toggleLetter('A')">A</h2>
+                <div class="entries" id="letterA">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>English</th>
+                                <th>German</th>
+                                <th>Comments</th>
+                                <th>Reference</th>
+                                <th>Links</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Example Entry -->
+                            <tr>
+                                <td>Abstract</td>
+                                <td>Abstrakt</td>
+                                <td>This is a summary of the patent.</td>
+                                <td>Ref123</td>
+                                <td><a href="#">Link</a></td>
+                            </tr>
+                            <!-- Add more entries here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="letter-section">
+                <h2 onclick="toggleLetter('B')">B</h2>
+                <div class="entries" id="letterB">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>English</th>
+                                <th>German</th>
+                                <th>Comments</th>
+                                <th>Reference</th>
+                                <th>Links</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Example Entry -->
+                            <tr>
+                                <td>Book</td>
+                                <td>Buch</td>
+                                <td>This is a summary of the patent.</td>
+                                <td>Ref123  </td>
+                                <td><a href="#">Link</a></td>
+                            </tr>
+                            <!-- Add more entries here -->
+                            <tr>
+                                <td>Boofffkfff</td>
+                                <td>Bgit uch</td>
+                                <td>This is a summary of the patent. tootoo</td>
+                                <td>Ref123</td>
+                                <td><a href="#">Link</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+            <!-- Repeat the letter-section for each letter of the alphabet -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Patent Glossary</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

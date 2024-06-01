@@ -1,0 +1,124 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin: 0.5rem 0;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 1rem;
+  }
+  
+  .glossary h1 {
+    text-align: center;
+  }
+  
+  .letter-section {
+    margin-bottom: 1rem;
+  }
+  
+  .letter-section h2 {
+    cursor: pointer;
+    background-color: #ddd;
+    padding: 0.5rem;
+    margin: 0;
+  }
+  
+  .entries {
+    display: none;
+  }
+  
+  .entries table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .entries th,
+  .entries td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .entries th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Media Query for Screens 600px and Larger */
+  @media (min-width: 600px) {
+    .navbar {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    .nav-links {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .nav-links li {
+      margin: 0 1rem;
+    }
+  
+    .entries table {
+      display: table;
+    }
+  
+    .entries tr {
+      display: table-row;
+    }
+  
+    .entries th,
+    .entries td {
+      display: table-cell;
+      padding: 1rem;
+    }
+  }
+  
